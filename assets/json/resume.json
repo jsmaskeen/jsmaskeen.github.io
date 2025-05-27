@@ -1,200 +1,286 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Jaskirat Singh Maskeen",
+    "label": "Undergraduate Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "jaskirat.maskeen@iitgn.ac.in",
+    "url": "https://jsmaskeen.github.io",
+    "summary": "Third year undergraduate at IIT Gandhinagar majoring in Computer Science and Engineering. Passionate about algorithms, spiking neural networks, and data science.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "IIT Gandhinagar",
+      "postalCode": "382355",
+      "city": "Gandhinagar",
+      "countryCode": "IN",
+      "region": "Gujarat"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "jsmaskeen",
+        "url": "https://github.com/jsmaskeen"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jsmaskeen",
+        "url": "https://www.linkedin.com/in/jsmaskeen"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "",
+        "url": "https://scholar.google.com/citations?user=xAQueRgAAAAJ"
       }
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
   "interests": [
     {
       "name": "Physics",
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Quantum Computing"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Computer Science",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Algorithms",
+        "Theoretical CS"
+      ]
+    },
+    {
+      "name": "Electronics",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "System Design",
+        "Spiking Neural Networks"
+      ]
+    }
+  ],"certificates": [
+    {
+      "name": "Differential Equations for Engineers",
+      "date": "2024-12-24",
+      "issuer": "The Hong Kong University of Science and Technology",
+      "url": "https://www.coursera.org/account/accomplishments/verify/NORZLU45LLXR",
+      "icon": "fa-solid"
+    },
+    {
+      "name": "Advanced Learning Algorithms",
+      "date": "2024-07-03",
+      "issuer": "DeepLearning.AI | Standford Online",
+      "url": "https://www.coursera.org/account/accomplishments/verify/SH8SQB6Q6W2Y",
+      "icon": "fa-solid"
+    },
+    {
+      "name": "Unsupervised Learning, Recommenders, Reinforcement Learning",
+      "date": "2024-07-05",
+      "issuer": "DeepLearning.AI | Standford Online",
+      "url": "https://www.coursera.org/account/accomplishments/verify/7H6R5GR2AMB5",
+      "icon": "fa-solid"
+    },
+    {
+      "name": "Supervised Machine Learning: Regression and Classification",
+      "date": "2024-06-30",
+      "issuer": "DeepLearning.AI | Standford Online",
+      "url": "https://www.coursera.org/account/accomplishments/verify/XLBSKPHWJMV3",
+      "icon": "fa-solid"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Indian Institute of Technology Gandhinagar",
+      "area": "Computer Science and Engineering and Electrical Engineering",
+      "studyType": "B.Tech. CSE with Minors in EE",
+      "location": "Gandhinagar, Gujarat, India",
+      "url": "https://iitgn.ac.in/",
+      "startDate": "2023-07-01",
+      "transcript_url_en":true,
+      "transcript_url":"https://drive.google.com/file/d/1xerte8CnqBGHNmF2IhcQU7B28fMsMqhL/view?usp=sharing",
+      "endDate": "",
+      "score": "9.88/10",
+      "courses": ["Computing (11/10)", "Data Structures and Algorithms (10/10)", "Introduction to Data Science (10/10)",
+    "Linear Algebra and Calculus (10/10)", "Introduction to Quantum Physics (10/10)", "Numerical Analysis (10/10)","Digital Systems (10/10)", "Electronic Devices (10/10)"]
+    },
+    {
+      "institution": "Sanskriti School",
+      "area": "Physics, Chemistry, Maths",
+      "studyType": "Class XII",
+      "startDate": "2022-04-01",
+      "endDate": "2023-03-31",
+      "score": "97.4%",
+      "location": "New Delhi, India",
+      "url": "https://sanskritischool.edu.in/"
+    },
+    {
+      "institution": "Sanskriti School",
+      "area": "General Studies",
+      "studyType": "Class X",
+      "startDate": "2020-04-01",
+      "endDate": "2021-03-31",
+      "location": "New Delhi, India",
+      "url": "https://sanskritischool.edu.in/",
+      "score": "93.83%"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Samsung Fellowship in Grade-I category",
+      "date": "2025-01-23",
+      "awarder": "Samsung",
+      "summary": "Awarded for being one of the top candidates participating India Semiconductor Workforce Development Program (ISWDP)"
+    },
+    {
+      "title": "Scholarship for Academic Excellence",
+      "date": "2024-06-01",
+      "awarder": "IIT Gandhinagar",
+      "summary": "Awarded for being institute rank #1 in the batch for academic year 2023-24."
+    },
+    {
+      "title": "Dean's List",
+      "date": "2024-06-01",
+      "awarder": "IIT Gandhinagar",
+      "summary": "Selected in Semester-1, Semester-2, and Semester-3 for excellent academic performance."
+    },
+    {
+      "title": "Certification in Teaching",
+      "date": "2024-04-01",
+      "awarder": "IIT Gandhinagar",
+      "summary": "Awarded for excellence in teaching activities during Semester-2."
+    },
+    {
+      "title": "Potential to be a Budding Ramanujan",
+      "date": "2019-01-01",
+      "awarder": "Mathematical Sciences Foundation",
+      "summary": "Awarded for exceptional mathematical ability."
+    }
+  ],
+  "work": [
+    {
+      "name": "IIT Gandhinagar",
+      "position": "Research Student",
+      "url": "https://github.com/jsmaskeen/SNN",
+      "startDate": "2024-12-01",
+      "endDate": "2025-04-30",
+      "summary": "Working on algorithms to improve efficiency of Spiking Neural Networks, testing different STDP approaches, and adaptive neurons under Prof. Sandip Lashkare.",
+      "highlights": [
+        "Simulated SNNs using RRAM for pattern recognition",
+        "Implemented arbitrary STDP approach on MNIST dataset",
+        "Developed a standalone framework for SNN simulation from scratch. Available as a package \"nervos\".",
+        "https://pypi.org/project/nervos"
+      ]
+    }
+  ],"publications": [
+    {
+      "name": "Asynchronous Real-Time Learning in Spiking Neural Network using 3-Terminal Resistance Random Access Memory",
+      "publisher": "Preprint (TechRxiv)",
+      "releaseDate": "2025-05-23",
+      "url": "https://doi.org/10.36227/techrxiv.174613015.58997908/v2",
+      "summary": "Spiking Neural Networks (SNNs) mimic the human brain and are useful for tasks like pattern recognition with low energy use. Using RRAM crossbar arrays helps simulate synaptic weights and supports analog signal processing. However, standard two-terminal RRAMs struggle with simultaneous reading and writing, since reading uses low voltage and writing uses high voltage. To solve this, a 3-terminal Pr₀.₇Ca₀.₃MnO₃ (PCMO) RRAM is proposed. Two terminals are used for writing, and the third is used for reading, allowing real-time, asynchronous operation. This reduces circuit complexity and speeds up learning in SNNs."
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Electoral Bond Analysis",
+      "summary": "Web-based platform to analyze electoral bond data with advanced search, filtering and visualizations.",
+      "highlights": [
+        "Processed PDF data and integrated with MySQL",
+        "Developed using Flask, Bootstrap, and ChartJS"
+      ],
+      "startDate": "2024-01-01",
+      "endDate": "2024-04-01",
+      "url": "https://github.com/jsmaskeen/electoral-bonds-assignment"
+    },
+    {
+      "name": "Lost and Found System",
+      "summary": "Web platform to report and recover lost items on campus.",
+      "highlights": [
+        "Used Google Auth, OTP verification, proof of ownership checks"
+      ],
+      "startDate": "2023-12-01",
+      "endDate": "2023-12-31",
+      "url": "https://github.com/jsmaskeen/Lost-and-Found"
+    },
+    {
+      "name": "Image Processing and Probability Analysis",
+      "summary": "Combined image processing and statistical analysis on ATP tennis data and images.",
+      "highlights": [
+        "Implemented Otsu's binarization and histogram equalization",
+        "Data exploration and pattern finding in ATP datasets"
+      ],
+      "startDate": "2023-08-01",
+      "endDate": "2023-11-30",
+      "url": "https://github.com/jsmaskeen/ES114_Labs"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Intermediate",
+      "keywords": ["C++", "C", "Python", "HTML", "CSS", "JavaScript (basic)", "Latex"]
+    },
+    {
+      "name": "Libraries & Tools",
+      "level": "Intermediate",
+      "keywords": ["Numpy", "Pandas", "Flask", "Google API Client", "Py-Cord", "GitHub", "Linux (Ubuntu)"]
+    },
+    {
+      "name": "Databases",
+      "level": "Intermediate",
+      "keywords": ["MongoDB", "SQL"]
+    }
+  ],
+  "positions": [
+    {
+      "name": "Technical Council, IITGN",
+      "position": "Member",
+      "startDate": "2024-08-01",
+      "endDate": "",
+      "summary": "Organized hackathons and coordinated inter-club activities."
+    },
+    {
+      "name": "Odyssey, The Astronomy Club, IITGN",
+      "position": "Core Member",
+      "startDate": "2023-12-01",
+      "endDate": "",
+      "summary": "Organized night sky sessions, astrobiology talks, and image processing from Unistellar eVscope 2."
+    },
+    {
+      "name": "Amalthea IITGN",
+      "position": "Event Lead",
+      "startDate": "2024-05-01",
+      "endDate": "2024-11-01",
+      "summary": "Led a offline quiz competition (BrainWiz) with over 200 participants from classes IX-XII and built a dynamic Code Golfing website with leaderboard support."
+    },
+    {
+      "name": "Student Guide, IITGN",
+      "position": "Mentor",
+      "startDate": "2024-08-01",
+      "endDate": "",
+      "summary": "Mentoring ten first-year students; selected among 40 guides."
+    },
+    {
+      "name": "Academic Discussion Hour Mentor, IITGN",
+      "position": "Mentor",
+      "startDate": "2024-09-01",
+      "endDate": "2024-11-30",
+      "summary": "Held weekly sessions for ≈400 students in Calculus and Linear Algebra course."
+    }
+  ],
+  "languages": [
+    {
+      "language": "Hindi",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "Punjabi",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Full Professional Proficiency",
+      "icon": ""
     }
   ]
 }
