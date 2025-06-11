@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{
+        },{id: "post-how-to-install-latex-locally-on-your-pc",
+        
+          title: "How to install LaTeX locally on your PC",
+        
+        description: "I describe how I installed MiKTeX on my PC.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/installing-latex-locally/";
+          
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
