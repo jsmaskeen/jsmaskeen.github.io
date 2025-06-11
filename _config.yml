@@ -86,6 +86,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 blog_name: cool-stuff # blog_name will be displayed in your blog page
 blog_description: I usually put useful tutorials and software for my reference here.
 permalink: /blog/:year/:title/
+future: true
 lsi: false # produce an index for related posts
 
 # Pagination
