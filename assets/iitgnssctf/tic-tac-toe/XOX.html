@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XOX Game</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.board {
+  display: inline-block;
+  margin-top: 20px;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border: 1px solid #ccc;
+  font-size: 36px;
+  cursor: pointer;
+  float: left;
+}
+
+.cell:hover {
+  background-color: #f9f9f9;
+}
+
+.cell:nth-child(3n+1) {
+  clear: both;
+}
+
+.status {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.reset {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+<h1>XOX Game</h1>
+<div class="board" id="board"></div>
+<p class="status" id="status"></p>
+<button class="reset" id="reset">Reset Game</button>
+<script>
+const board = document.getElementById('board');
+const status = document.getElementById('status');
+const resetButton = document.getElementById('reset');
+let currentPlayer = 'X';
+let gameover = false;
+let cells = Array.from({ length: 9 }).fill('');
+
+function checkWinner() {
+  const winPatterns = [
+    [0, 1, 2], [3, 4, 5], [6, 7, 8], // Rows
+    [0, 3, 6], [1, 4, 7], [2, 5, 8], // Columns
+    [0, 4, 8], [2, 4, 6]             // Diagonals
+  ];
+
+  for (let pattern of winPatterns) {
+    const [a, b, c] = pattern;
+    if (cells[a] && cells[a] === cells[b] && cells[a] === cells[c]) {
+      return cells[a];
+    }
+  }
+
+  if (cells.every(cell => cell !== '')) {
+    return 'Tie';
+  }
+
+  return null;
+}
+
+function updateStatus() {
+  const winner = checkWinner();
+  if (winner) {
+    gameover = true;
+    if (winner === 'Tie') {
+      status.textContent = "It's a tie!";
+    } else {
+      status.textContent = `${winner} wins! Flag ---> ` + encryptedFlag;
+    }
+  } else {
+    status.textContent = `Current player: ${currentPlayer}`;
+  }
+}
+
+function handleClick(index) {
+  if (gameover || cells[index] !== '') return;
+  cells[index] = currentPlayer;
+  currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+  renderBoard();
+  updateStatus();
+}
+
+function resetGame() {
+  currentPlayer = 'X';
+  gameover = false;
+  cells = Array.from({ length: 9 }).fill('');
+  renderBoard();
+  updateStatus();
+}
+// Function to encrypt the flag
+function encryptFlag(flag) {
+    let encryptedFlag = "";
+    for (let i = 0; i < flag.length; i++) {
+        let charCode = flag.charCodeAt(i);
+        encryptedFlag += String.fromCharCode(charCode + 1);
+    }
+    return encryptedFlag;
+}
+
+const encryptedFlag = "DUG|YPY`YPY`YPY`jt`fbtz~";
+
+function renderBoard() {
+  board.innerHTML = '';
+  cells.forEach((cell, index) => {
+    const cellElement = document.createElement('div');
+    cellElement.classList.add('cell');
+    cellElement.textContent = cell;
+    cellElement.addEventListener('click', () => handleClick(index));
+    board.appendChild(cellElement);
+  });
+}
+
+resetButton.addEventListener('click', resetGame);
+
+renderBoard();
+updateStatus();
+</script>
+</body>
+</html>
