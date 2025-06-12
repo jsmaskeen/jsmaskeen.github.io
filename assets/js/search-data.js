@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-how-to-install-latex-locally-on-your-pc",
+        },{id: "post-iitgn-summer-siege-ctf-write-up",
+        
+          title: "IITGN Summer Siege CTF Write-up",
+        
+        description: "A write-up covering all questions I attemted for the CTF.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/IITGN-SSCTF/";
+          
+        },
+      },{id: "post-how-to-install-latex-locally-on-your-pc",
         
           title: "How to install LaTeX locally on your PC",
         
