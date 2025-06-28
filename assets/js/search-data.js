@@ -38,8 +38,8 @@ ninja.data = [{
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
-          title: "cv",
-          description: "You can download a pdf of my CV by clicking the button on the right!",
+          title: "CV",
+          description: "You can download a PDF of my CV by clicking the button on the right!",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
