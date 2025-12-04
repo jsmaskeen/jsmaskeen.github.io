@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-iitgn-summer-siege-ctf-write-up",
+        },{id: "post-os-notes-cs330-iitgn",
+        
+          title: "OS Notes (CS330 @ IITGN)",
+        
+        description: "These notes were compiled during the Aug-Nov 2025 offering of the CS330 - Operating Systems course, based on *Operating Systems - Three Easy Pieces (OSTEP)*.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/os-notes/";
+          
+        },
+      },{id: "post-iitgn-summer-siege-ctf-write-up",
         
           title: "IITGN Summer Siege CTF Write-up",
         
