@@ -22,15 +22,32 @@ Firstly, you need an anchor to which your door stopper will attach. In our room,
 
 > The red line shows the trajectory of the door.
 
-| | |
-|-- |-- |
-| <img src="/assets/img/door-hanger/1.jpeg" width="500"> | <img src="/assets/img/door-hanger/2.png" width="500"> |
+<div class="row mt-3">
+  <div class="col-sm-6">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/door-hanger/1.jpeg"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+  <div class="col-sm-6">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/door-hanger/2.png"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+</div>
 
 
 
 Next, you need a metal hanger that is easy to unwind/realign using your hands (we don't have pliers in our room).
 
-![](/assets/img/door-hanger/3.jpeg)
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/door-hanger/3.jpeg"
+  class="img-fluid rounded z-depth-1"
+%}
 
 > The hook of the hanger looks weird because I am writing this guide after first testing whether the door stopper works (I don't have more hangers to spare 😭😭).
 
@@ -42,22 +59,45 @@ With these requirements met, you are now ready to build the door stopper.
 
 The very first thing to do is to straighten the hook as shown. This will help us slide out the loop on the other end easily.
 
-![](/assets/img/door-hanger/4.png)
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/door-hanger/4.png"
+  class="img-fluid rounded z-depth-1"
+  caption="Straighten the hook"
+%}
 
 ## Step 2: Slide out the loop
 
 Carefully do this step, as you might accidentally bend the loop-end of the hanger out of plane of the rest of the hanger.
 
-| | |
-|-- |-- |
-| <img src="/assets/img/door-hanger/5.jpeg" width="500"> | <img src="/assets/img/door-hanger/6.jpeg" width="500"> |
+<div class="row mt-3">
+  <div class="col-sm-6">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/door-hanger/5.jpeg"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+  <div class="col-sm-6">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/door-hanger/6.jpeg"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+</div>
 
 
 ## Step 3: Bend the straight end.
 
 Ensure that you bend it away from the loop end, so that once the loop end latches, it sits at the bottom of the `V` shape.
 
-![](/assets/img/door-hanger/7.jpeg)
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/door-hanger/7.jpeg"
+  class="img-fluid rounded z-depth-1"
+  caption="Bend away from the loop end"
+%}
 
 
 Our door stopper is now ready. Let's see how to use it.
@@ -68,23 +108,41 @@ Our door stopper is now ready. Let's see how to use it.
 
 Make sure the handle of the door and anchor are in close proximity.
 
-![](/assets/img/door-hanger/9.jpeg)
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/door-hanger/9.jpeg"
+  class="img-fluid rounded z-depth-1"
+%}
 
 ## Step 2: Hang the `V` end onto the anchor
 
-![](/assets/img/door-hanger/8.jpeg)
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/door-hanger/8.jpeg"
+  class="img-fluid rounded z-depth-1"
+%}
 
 ## Step 3: Put the loop-end through door-handle and then latch.
 
 To latch, follow the arrow shown below.
 
-![](/assets/img/door-hanger/10.png)
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/door-hanger/10.png"
+  class="img-fluid rounded z-depth-1"
+  caption="Follow the arrow to latch"
+%}
 
 ## Final Outcome
 
 The door remains open!!
 
-![](/assets/img/door-hanger/11.jpeg)
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/door-hanger/11.jpeg"
+  class="img-fluid rounded z-depth-1"
+  caption="The door remains open!"
+%}
 
 To unlatch, reverse Steps 3 and 2.
 
