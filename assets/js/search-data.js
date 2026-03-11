@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-os-notes-cs330-iitgn",
+        },{id: "post-how-to-make-a-simple-door-stopper",
+        
+          title: "How to Make a Simple Door Stopper",
+        
+        description: "This is meant to be an esoteric post, where I document the transformation of an ordinary hanger into an apparatus for stabilizing an open door. My roommate had suggested that such matters need not be written about, nevertheless, here we are.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/door-stopper/";
+          
+        },
+      },{id: "post-os-notes-cs330-iitgn",
         
           title: "OS Notes (CS330 @ IITGN)",
         
